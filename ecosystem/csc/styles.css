@@ -1,0 +1,148 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f5f0; /* Fondo claro para dar contraste */
+    color: #333; /* Color de texto estándar */
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #006400; /* Verde oscuro para el encabezado */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    max-width: 150px;
+}
+
+/* Estilos para la navegación */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #006400; /* Verde oscuro para encabezados */
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+/* Estilo para los artículos */
+article {
+    margin-bottom: 20px;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #006400; /* Borde verde para las imágenes */
+}
+
+/* Estilo para el video */
+aside video {
+    width: 100%;
+    border: 2px solid #006400;
+}
+
+/* Estilos para las tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #006400;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #228B22; /* Verde más claro para encabezados de tabla */
+    color: white;
+}
+
+/* Estilos para el formulario */
+form {
+    background-color: #e0eee0; /* Fondo verde claro para el formulario */
+    padding: 20px;
+    border: 1px solid #006400;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #006400;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #006400;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #228B22; /* Verde más claro al pasar el ratón */
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #006400;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
