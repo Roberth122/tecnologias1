@@ -23,6 +23,7 @@ header {
 
 header img {
     max-width: 150px;
+    max-height: 80px;
 }
 
 /* Estilos para la navegación */
